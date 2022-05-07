@@ -1,0 +1,423 @@
+/*Common CSS-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    margin-top: -10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+max-width: 1130px;
+width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+/*Header CSS---------------------------------------*/
+
+header { grid-area: header; }
+
+header{
+    background:#09103a;
+    
+    border: 1px solid white;
+    text-align: center;
+    width:100%;
+    height:150px;    
+}
+
+infobar { grid-area: infobar; }
+
+.info-bar {
+    background: #1d2864;
+    color: #fff;
+height: 50px;
+}
+
+.custom-hero-text-box{
+    background: #09103aa8;
+    padding: 5px 20px 5px 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+/*Nav CSS-------------------------------------------*/
+
+
+nav { grid-area: nav; }
+
+nav{
+    background:#09103a;
+    text-align:center;
+    width:100%;
+    height: 100px;
+    padding-top: 30px;
+}
+
+nav ol{
+    list-style:none;
+    margin:0;
+    text-align:center;
+    float: right;
+    
+    
+}
+
+nav li{
+    display:inline;
+   
+}
+
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color:hsl(0,0%,255%);
+    display:inline-block;
+    padding: 30px 40px 20px 40px;
+
+    
+    
+}
+
+nav li a:hover{
+
+    background: rgb(101, 101, 101);
+   
+}  
+
+.navbar-brand {
+    padding-top: 30px;
+    margin-right: 30%;
+
+}
+
+
+
+.tickets{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.ticket-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+
+}
+
+.ticket-col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.ticket-box {
+    color: #6b2525;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.rides{
+    background: #09103a;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.rides-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+
+
+}
+
+.rides-col-4 {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+    
+}
+
+.rides-col-4-first {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 23%;
+}
+
+.rides-box {
+    color: #6b2525;
+    margin-left: 10px;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.feature{
+}
+
+
+.feature-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+
+.feature-col-2 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-box {
+    padding: 10px;
+    color: #6b2525;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+
+
+
+.color-box .box-border {
+    border: 1px solid #ffffff;
+    padding: 20px 15px;
+    border-radius: 16px;
+    min-height: 501px;
+}
+
+
+
+.orange {
+    background: #f08819;
+}
+
+.white {
+    border-color:  #f08819;
+    border-width: 1px;;
+    border-style: solid;
+    background: #fff;
+}
+
+
+.banner{
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    background: url(../img/shutterstock_271954364.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* overflow: hidden; */
+    padding: 4% 0 0 0;
+}
+
+
+
+
+/*Index.html CSS------------------------------------*/
+
+/* 
+#fpIntro { grid-area: intro; }
+#fplinkArea { grid-area: main; }
+#bestSellersList { grid-area: bestSeller; } */
+
+
+/*onlineRead.html CSS-------------------------------------*/
+
+/* #orReadingIntro { grid-area: intro; }
+aside { grid-area: aside; }
+#orReadingBooks { grid-area: main; } */
+
+
+
+/* .grid-container-onlineRead {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 300px;
+  grid-template-areas:
+  'infobar infobar infobar infobar infobar infobar'
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'intro intro intro intro intro aside'
+    'main main main main main aside'
+    'footer footer footer footer footer footer';
+  background-color: white;
+} */
+
+
+
+/*Footer CSS-------------------------------------------*/
+
+.products-footer {
+    background: #525252;
+    padding: 40px 0 20px 0;
+    overflow: hidden;
+    border-top: 6px solid #74b272;
+}
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+
+.text-right-custom {
+    text-align: right;
+}
+
+
+.col-md-6 {
+
+    flex: 0 0 100%;
+    max-width: 50%;
+}
+
+.col-md-12 {
+
+    flex: 0 0 100%;
+}
+
+
+.img-fluid {
+    transition: all .2s ease-in-out;
+    margin-bottom: -4px;
+
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*Rides Page-------------------------------------------*/
+
+
+.rides-banner{
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    background: url(../img/shutterstock_271954364.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* overflow: hidden; */
+    padding: 4% 0 0 0;
+}
+
+
+.rides-feature-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+
+.rides-feature-col-2 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rides-feature-box {
+    padding: 10px;
+    color: #6b2525;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
