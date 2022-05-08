@@ -193,50 +193,6 @@ nav li a:hover{
     overflow: hidden;
 }
 
-.rides{
-    background: #09103a;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-
-.rides-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 50px;
-
-
-
-}
-
-.rides-col-4 {
-    -ms-flex: 0 0 23%;
-    flex: 0 0 23%;
-    max-width: 23%;
-    
-}
-
-.rides-col-4-first {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 23%;
-}
-
-.rides-box {
-    color: #6b2525;
-    margin-left: 10px;
-    margin-right: auto;
-    overflow: hidden;
-}
-
-
-.feature{
-}
-
-
 .feature-row {
     display: -ms-flexbox;
     display: flex;
@@ -263,18 +219,12 @@ nav li a:hover{
     text-align: left;
 }
 
-
-
-
-
 .color-box .box-border {
     border: 1px solid #ffffff;
     padding: 20px 15px;
     border-radius: 16px;
     min-height: 501px;
 }
-
-
 
 .orange {
     background: #f08819;
@@ -287,7 +237,6 @@ nav li a:hover{
     background: #fff;
 }
 
-
 .banner{
     height: 600px;
     background-color: rgb(0, 0, 0);
@@ -297,40 +246,6 @@ nav li a:hover{
     /* overflow: hidden; */
     padding: 4% 0 0 0;
 }
-
-
-
-
-/*Index.html CSS------------------------------------*/
-
-/* 
-#fpIntro { grid-area: intro; }
-#fplinkArea { grid-area: main; }
-#bestSellersList { grid-area: bestSeller; } */
-
-
-/*onlineRead.html CSS-------------------------------------*/
-
-/* #orReadingIntro { grid-area: intro; }
-aside { grid-area: aside; }
-#orReadingBooks { grid-area: main; } */
-
-
-
-/* .grid-container-onlineRead {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto 300px;
-  grid-template-areas:
-  'infobar infobar infobar infobar infobar infobar'
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'intro intro intro intro intro aside'
-    'main main main main main aside'
-    'footer footer footer footer footer footer';
-  background-color: white;
-} */
-
-
 
 /*Footer CSS-------------------------------------------*/
 
@@ -377,47 +292,5 @@ aside { grid-area: aside; }
 
 .img-fluid:hover {
     transform: scale(1.1);
-}
-
-
-
-/*Rides Page-------------------------------------------*/
-
-
-.rides-banner{
-    height: 300px;
-    background-color: rgb(0, 0, 0);
-    background: url(../img/shutterstock_271954364.jpg) no-repeat;
-    background-size: cover;
-    background-position: top center;
-    /* overflow: hidden; */
-    padding: 4% 0 0 0;
-}
-
-
-.rides-feature-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    
-}
-
-.rides-feature-col-2 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    min-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.rides-feature-box {
-    padding: 10px;
-    color: #6b2525;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
-    text-align: left;
 }
 
