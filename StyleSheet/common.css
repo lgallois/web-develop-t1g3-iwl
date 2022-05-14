@@ -50,6 +50,7 @@ p{
     font-variant: normal;
     font-weight: normal;
     font-size: 1em;
+    line-height: 2em;
     color: rgb(0, 0, 0);
 }
 
@@ -98,12 +99,42 @@ infobar { grid-area: infobar; }
 height: 50px;
 }
 
-.custom-hero-text-box{
+.custom-hero-text-box-a{
+    background: #fde186b4;
+    padding: 5px 20px 5px 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.custom-hero-text-box-b{
     background: #09103aa8;
     padding: 5px 20px 5px 20px;
     width: fit-content;
     height: fit-content;
 }
+
+.banner-button {
+    background-color: #ffffff;
+    border: 2px solid #f08819;
+    color: #6b2525;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .banner-button:hover {
+    background-color: #f08819;
+    color: white;
+  }
 
 /*Nav CSS-------------------------------------------*/
 
@@ -161,92 +192,6 @@ nav li a:hover{
 
 
 
-.tickets{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-.ticket-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
-
-
-}
-
-.ticket-col-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}
-
-.ticket-box {
-    color: #6b2525;
-    margin-left: 10px;
-    margin-right: auto;
-    text-align: center;
-    text-decoration: none;
-    overflow: hidden;
-}
-
-.feature-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    
-}
-
-.feature-col-2 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    min-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.feature-box {
-    padding: 10px;
-    color: #6b2525;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-.color-box .box-border {
-    border: 1px solid #ffffff;
-    padding: 20px 15px;
-    border-radius: 16px;
-    min-height: 501px;
-}
-
-.orange {
-    background: #f08819;
-}
-
-.white {
-    border-color:  #f08819;
-    border-width: 1px;;
-    border-style: solid;
-    background: #fff;
-}
-
-.banner{
-    height: 600px;
-    background-color: rgb(0, 0, 0);
-    background: url(../img/shutterstock_271954364.jpg) no-repeat;
-    background-size: cover;
-    background-position: top center;
-    /* overflow: hidden; */
-    padding: 4% 0 0 0;
-}
-
 /*Footer CSS-------------------------------------------*/
 
 .products-footer {
@@ -294,3 +239,54 @@ nav li a:hover{
     transform: scale(1.1);
 }
 
+
+
+/*Rides Page-------------------------------------------*/
+
+
+.rides-banner{
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    background: url(../img/shutterstock_271954364.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* overflow: hidden; */
+    padding: 4% 0 0 0;
+}
+
+
+.rides-feature-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+
+.rides-feature-col-2 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rides-feature-box {
+    padding: 10px;
+    color: #6b2525;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.parkmap{
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    background: url(../img/map.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* overflow: hidden; */
+    padding: 4% 0 0 0;
+}
