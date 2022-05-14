@@ -11,15 +11,19 @@
   <meta name="refresh" content="600">
   <meta name="keywords" content="?????'">
   <link rel="stylesheet" type="text/css" href="StyleSheet/common.css">
+  <link rel="stylesheet" type="text/css" href="StyleSheet/parkInfo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<!-- This body section contains the structure for all the visble content -->
+<!-- This body section contains the structure for all the visible content -->
 <body>
 <div class = "grid-container-index">
+    
     <header>
+        
+    <!-- Beginning of the navigation bar, containing links to other pages. -->
 
     <div class="info-bar">
     </div>
@@ -38,161 +42,165 @@
      
     </header>
 
+    <!-- Beginning of the 3 column card layout for ticketing. -->
+
     <div style="text-align:center"> 
 
-        <!-- <video id="video1" width="100%" width="200px" autoplay>
-          <source src="../img/1079495960-preview.mp4" type="video/mp4">
-          <source src="../img/1079495960-preview.mp4" type="video/ogg">
-        </video>
-      </div>  -->
-
-
-    <section class="rides-banner">
-
+    <section class="parkInfo-banner">
         <div class="container">
 
-        <div class="custom-hero-text-box text-center">
-            <h1>Rides & Attractions</h1>  </h1>
-        </div>
-     
-    </div>
+         <div class="custom-hero-text-box text-center">
+                <h1>Ticketing & Park Information</h1>  </h1>
+        </div>  
+      </div>
     </section>
 
-
-
-
-
-
- 
-    
-
-
-    <section class="rides-feature">
-        <h2 class="text-center">Our Latest Rides</h2>
-
+    <section class="reservation">
         <div class="container">
+            <h2 class="text-center">Reserve Your Vacation Experiences Now</h2>
+        <div class="reservation-row">
 
-        <div class="rides-feature-row">
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <img src="img/rollercoaster1.jpg" alt="??" width= "520px" height= "520px" class="">
+            <div class="reservation-col">
+                <div class="reservation-box white">
+                    <div class="box-border text-center">
+                        <a href="#" target="_blank" class="color-white">
+                        <img src="img/parkInfo/exhilarating.jpg" alt="??" width= "360px" height= "200px" class="img-fluid">
+                    </div>
+                </div>
+                <div class="box-border text-center reservation-box white">
+                <h3>Exhilarating Rides</h3></div></a>
+            </div>
+        
 
+            <div class="reservation-col">
+                <div class="reservation-box white">
+                    <div class="box-border text-center">
+                        <a href="#" target="_blank" class="color-white">
+                        <img src="img/parkInfo/food.jpg" alt="??" width= "360px" height= "200px" class="img-fluid">
+                    </div>
+                </div>
+                <div class="box-border text-center reservation-box white">
+                <h3>Great Food</h3></div></a>
+            </div>
+
+            <div class="reservation-col">
+                <div class="reservation-box white">
+                    <div class="box-border text-center">
+                        <a href="#" target="_blank" class="color-white">
+                        <img src="img/parkInfo/hotels.jpg" alt="??" width= "360px" height= "200px" class="img-fluid">
+                    </div>
+                </div>
+                <div class="box-border text-center reservation-box white">
+                <h3>Comfortable Hotels</h3></div></a>
+            </div>
+
+        </div>
+            
+        </div>
+       
+      <!-- Beginning of the park map. -->
+
+      <section class="parkMap">
+        <div class="container">
+            <div class="parkMap-row">
+                <div class="parkMap-box ">
                     <div class="box-border ">
-                    </div>
+
+                        <h2>Explore the Theme Park</h2>
+                        <p>Locate our most popular attractions, find exciting dining experiences, and much more.</p>
+
+                        <img class="parkMap-img" src="img/parkInfo/TP-map.jpg" alt="A map of the Theme Park">
+
+                        <a class="parkMap-button" href="img/parkInfo/TP-map.jpg" download="Theme_Park_Map">Download the Park Map</a>
+
+                    </div> 
                 </div>
             </div>
-
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <div class="box-border ">
-                        <h2>Title</h2>
-                        <p>hjgfkjfkjf</p>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
-    </div>
+
+      </section>
 
 
-    </section>
+      <!-- Beginning of the 3 Information Rows -->
 
-
-    <section class="rides-feature">
+      <section class="info">
         <div class="container">
+            <div class="info-row">
 
-        <div class="rides-feature-row">
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box">
-                    <div class="box-border">
-                        <h2>Title</h2>
-                        <p>hjgfkjfkjf</p>
+                <div class="info-col-1">
+                    <div class="info-box ">
+                        <img src="img/parkInfo/parking.jpg" alt="??" class="info-img">
                     </div>
                 </div>
-            </div>
 
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <div class="rides-feature-box">
-                        <img src="img/rollercoaster1.jpg" alt="??" width= "520px" height= "520px" class="">
+                <div class="info-col-2">
+                    <div class="info-box">
+                        <div class="box-border ">
+                            <h2>Parking & Directions:</h2>
+                            <p>Parking Fees: </p>
+                            <p>Public Transport Access: </p>
+                            <p>Shuttle Bus Services: </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
-
-
         </div>
-
-    </div>
-
-
     </section>
 
-    
-    <section class="rides-feature">
+    <section class="info">
         <div class="container">
+            <div class="info-row">
 
-        <div class="rides-feature-row">
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <img src="img/rollercoaster1.jpg" alt="??" width= "520px" height= "520px" class="">
-
-                    <div class="box-border ">
+                <div class="info-col-1">
+                    <div class="info-box ">
+                        <img src="img/parkInfo/safety.jpg" alt="??" class="info-img">
                     </div>
                 </div>
-            </div>
 
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <div class="box-border ">
-                        <h2>Title</h2>
-                        <p>hjgfkjfkjf</p>
+                <div class="info-col-2">
+                    <div class="info-box">
+                        <div class="box-border ">
+                            <h2>Safety Information</h2>
+                            <p>COVID-19 Measures: </p>
+                            <p>Height Requirements & Weight Limits: </p>
+                            <p>First-Aid Stations & Clinics: </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
-
-
         </div>
-
-    </div>
-
-
     </section>
 
-
-    <section class="rides-feature">
+    <section class="info">
         <div class="container">
+            <div class="info-row">
 
-        <div class="rides-feature-row">
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box">
-                    <div class="box-border">
-                        <h2>Title</h2>
-                        <p>hjgfkjfkjf</p>
+                <div class="info-col-1">
+                    <div class="info-box ">
+                        <img src="img/parkInfo/operatingHrs.png" alt="??" class="info-img">
                     </div>
                 </div>
-            </div>
 
-            <div class="rides-feature-col-2">
-                <div class="rides-feature-box ">
-                    <div class="rides-feature-box">
-                        <img src="img/rollercoaster1.jpg" alt="??" width= "520px" height= "520px" class="">
+                <div class="info-col-2">
+                    <div class="info-box">
+                        <div class="box-border ">
+                            <h2>Operating Hours</h2>
+                            <p>Main Theme Park: </p>
+                            <p>Goodman's Steak Restaurant: </p>
+                            <p>Quick Refuel Food Carts: </p>
+                            <p>Dreams Souvenir Shop: </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
-
-
         </div>
-
-    </div>
-
-
     </section>
 
-
-
-
+    <!-- The footer Section -->
 
    <footer>
         <div class="products-footer">
