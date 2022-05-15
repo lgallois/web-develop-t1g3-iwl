@@ -7,7 +7,7 @@
 }
 
 
-.ticket-row {
+#ticket-row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -40,7 +40,7 @@
 }
 
 
-.rides-row {
+#rides-row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
