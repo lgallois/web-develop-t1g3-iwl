@@ -1,6 +1,7 @@
 /*Index.html CSS unique to home page------------------------------------*/
 
 
+
 .tickets{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -124,7 +125,7 @@
 }
 
 
-.banner{
+.banner {
     height: 600px;
     background-color: rgb(0, 0, 0);
     background: url(../img/shutterstock_271954364.jpg) no-repeat;
@@ -133,6 +134,11 @@
     padding: 8% 0 0 0;
 }
 
+#videobanner {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
 
 
 
