@@ -3,7 +3,8 @@
 
 <!-- This head section contains all the invisible information about the page -->
 <head>
-    <title>Theme Park</title>
+    <title>Ticketing & Park Information</title>
+    <link rel="icon" href="/img/logo-only.png">
     <meta charset="utf-8">
     <meta name="description" content="?????">
     <meta name="author" content="????">
@@ -50,7 +51,7 @@
     <section class="parkInfo-banner">
         <div class="container">
 
-         <div class="custom-hero-text-box text-center">
+         <div class="custom-hero-text-box-translucent text-center">
                 <h1>Ticketing & Park Information</h1>
         </div>  
       </div>
@@ -110,9 +111,9 @@
                         <h2>Explore the Theme Park</h2>
                         <p>Locate our most popular attractions, find exciting dining experiences, and much more.</p>
 
-                        <img class="parkMap-img" src="img/parkInfo/TP-map.jpg" alt="A map of the Theme Park">
+                        <img id="parkMap-img" src="img/parkInfo/TP-map.jpg" alt="A map of the Theme Park">
 
-                        <a class="parkMap-button" href="img/parkInfo/TP-map.jpg" download="Theme_Park_Map">Download the Park Map</a>
+                        <a id="parkMap-button" href="img/parkInfo/TP-map.jpg" download="Theme_Park_Map">Download the Park Map</a>
 
                     </div> 
                 </div>
@@ -124,24 +125,28 @@
 
 
       <!-- Beginning of the 3 Information Rows -->
-
+      
       <section class="info">
         <div class="container">
             <div class="info-row">
 
-                <div class="info-col-1">
+                <div class="info-col-center">
                     <div class="info-box ">
                         <img src="img/parkInfo/parking.jpg" alt="Parking Information and Directions" class="info-img">
                     </div>
                 </div>
 
-                <div class="info-col-2">
+                <div class="info-col-left">
                     <div class="info-box">
                         <div class="box-border ">
                             <h2>Parking & Directions:</h2>
-                            <p>Parking Fees: </p>
-                            <p>Public Transport Access: </p>
-                            <p>Shuttle Bus Services: </p>
+                                <h3>Parking Fees:</h3>
+                                <p>Standard - $25 per night 
+                                <br> Premium - $35 per night</p>
+                                <h3>Public Transport Access: </h3>
+                                <p>wergergergerg</p>
+                                <h3>Shuttle Bus Services:</h3> 
+                                <p>qergqergqergqer.</p>
                         </div>
                     </div>
                 </div>
@@ -154,19 +159,22 @@
         <div class="container">
             <div class="info-row">
 
-                <div class="info-col-1">
+                <div class="info-col-center">
                     <div class="info-box ">
                         <img src="img/parkInfo/safety.jpg" alt="Safety Information" class="info-img">
                     </div>
                 </div>
 
-                <div class="info-col-2">
+                <div class="info-col-left">
                     <div class="info-box">
                         <div class="box-border ">
                             <h2>Safety Information</h2>
-                            <p>COVID-19 Measures: </p>
-                            <p>Height Requirements & Weight Limits: </p>
-                            <p>First-Aid Stations & Clinics: </p>
+                                <h3>COVID-19 Measures:</h3>
+                                <p>Masks and social distancing are required indoors.</p>
+                                <h3>Height Requirements & Weight Limits:</h3>
+                                <p>The full list of height and weight limits for each ride can be found here.</p>
+                                <h3>First-Aid Stations & Clinics:</h3> 
+                                <p>There are a total of 5 first-aid stations spread around the park. Click here for a map.</p>
                         </div>
                     </div>
                 </div>
@@ -179,20 +187,20 @@
         <div class="container">
             <div class="info-row">
 
-                <div class="info-col-1">
+                <div class="info-col-center">
                     <div class="info-box ">
                         <img src="img/parkInfo/operatingHrs.png" alt="Operating Hours" class="info-img">
                     </div>
                 </div>
 
-                <div class="info-col-2">
+                <div class="info-col-left">
                     <div class="info-box">
                         <div class="box-border ">
                             <h2>Operating Hours</h2>
-                            <p>Main Theme Park: </p>
-                            <p>Goodman's Steak Restaurant: </p>
-                            <p>Quick Refuel Food Carts: </p>
-                            <p>Dreams Souvenir Shop: </p>
+                            <p>Main Theme Park: 8am to 8pm, Daily.</p>
+                            <p>Goodman's Steak Restaurant: 11am to 9pm, closed on Mondays.</p>
+                            <p>Quick Refuel Food Carts: 10am to 10pm Daily.</p>
+                            <p>Dreams Souvenir Shop: 10am to 7pm Daily.</p>
                         </div>
                     </div>
                 </div>
@@ -201,7 +209,7 @@
         </div>
     </section>
 
- <!-- Footer section for quick links, social links, contact info, legal etc-->
+ <!-- Footer section for quick links, social links, coontact info, legal etc-->
 
 
  <footer>
@@ -226,10 +234,10 @@
                     <div class="row">
                         <div class="col-md-12 text-right-custom text-center-max767">
                             <a href="#" target="_blank">
-                                <img src="../img/twitter.svg" width="30" class="img-fluid margin-right-15">
+                                <img src="../img/twitter.svg"  alt="twitter" width="30" class="img-fluid margin-right-15">
                             </a>
                             <a href="#" target="_blank">
-                                <img src="../img/linkedin.svg" width="30" class="img-fluid">
+                                <img src="../img/linkedin.svg" alt="linkedin" width="30" class="img-fluid">
                             </a>
                         </div>
                     </div>
