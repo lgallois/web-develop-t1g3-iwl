@@ -157,6 +157,7 @@ height: 50px;
     cursor: pointer;
     position: absolute;
     z-index: 999;
+    border-radius: 30px;
     
   }
 
