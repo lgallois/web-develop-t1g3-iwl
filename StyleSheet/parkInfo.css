@@ -11,12 +11,6 @@
     padding: 4% 0 0 0;
 }
 
-.custom-hero-text-box-translucent{
-    background: #09103aa8;
-    padding: 5px 20px 5px 20px;
-    width: fit-content;
-    height: fit-content;
-}
 
 /*---3 Cards---*/
 .reservation{
@@ -33,7 +27,7 @@
     justify-content: center;
 }
 
-.reservation-col {
+.reservation-col-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
@@ -46,6 +40,17 @@
     text-align: center;
     text-decoration: none;
     overflow: hidden;
+}
+
+.orange {
+    background: #f08819;
+}
+
+.white {
+    border-color:  #f08819;
+    border-width: 1px;;
+    border-style: solid;
+    background: #fff;
 }
 
 /*---Park Map---*/
@@ -135,6 +140,7 @@
     margin-right: auto;
     text-align: left;
     border-color: #000000;
+    line-height: 10%;
 }
 
 .info-img{
@@ -144,4 +150,9 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.green{
+    color: #CC7830;
+    padding-bottom: 15px;
 }
