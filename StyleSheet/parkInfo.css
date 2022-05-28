@@ -140,7 +140,6 @@
     margin-right: auto;
     text-align: left;
     border-color: #000000;
-    line-height: 10%;
 }
 
 .info-img{
@@ -154,5 +153,4 @@
 
 .green{
     color: #CC7830;
-    padding-bottom: 15px;
 }
