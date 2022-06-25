@@ -58,7 +58,7 @@
     background: #fff;
 }
 
-/*---Park Map---*/
+/*---Park Map Section---*/
 
 .parkMap-row {
     -ms-flex: 0 0 100%;
@@ -78,6 +78,8 @@
     text-align: center;
 }
 
+/*---Full Width Park Map with unique ID---*/
+
 #parkMap-img{
     max-width: 1130px;
     width: 100%;
@@ -85,6 +87,8 @@
     margin-left: auto;
     padding-bottom: 25px;
 }
+
+/*---Highlight on hover button with unique ID---*/
 
 #parkMap-button{
     background-color: #ffffff;
@@ -111,6 +115,7 @@
     }
 
 /*---3 Information Rows---*/
+
 .info-row {
     display: -ms-flexbox;
     display: flex;
@@ -147,6 +152,7 @@
     border-color: #000000;
 }
 
+/*---CSS to style the images accompanying the information row---*/
 .info-img{
     max-width: 475px;
     width: 100%;
@@ -154,8 +160,4 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-}
-
-.green{
-    color: #CC7830;
 }
