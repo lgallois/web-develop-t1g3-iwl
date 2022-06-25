@@ -216,7 +216,9 @@ nav li a:hover{
     margin-right: 30%;
 }
 
-
+.navbar-brand img {
+    width: 400px;
+}
 
 /*Footer CSS-------------------------------------------*/
 
@@ -258,7 +260,6 @@ nav li a:hover{
 .img-fluid {
     transition: all .2s ease-in-out;
     margin-bottom: -4px;
-
 }
 
 .img-fluid:hover {

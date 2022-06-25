@@ -100,18 +100,12 @@
     text-align: left;
 }
 
-
-
-
-
 .color-box .box-border {
     border: 1px solid #ffffff;
     padding: 20px 15px;
     border-radius: 16px;
     min-height: 501px;
 }
-
-
 
 .orange {
     background: #f08819;
@@ -124,6 +118,19 @@
     background: #fff;
 }
 
+.book-your-visit {
+    width: 360px;
+    height: 200px;
+}
+
+.most-popular-attractions {
+    width: 273px;
+    height: 240px;
+}
+
+.feature-img {
+    width: 520px;
+}
 
 .banner {
     height: 600px;
@@ -139,36 +146,8 @@
     height: 600px;
     overflow: hidden;
     position: relative;
-  }
+}
 
-
-
-/*Index.html CSS------------------------------------*/
-
-/* 
-#fpIntro { grid-area: intro; }
-#fplinkArea { grid-area: main; }
-#bestSellersList { grid-area: bestSeller; } */
-
-
-/*onlineRead.html CSS-------------------------------------*/
-
-/* #orReadingIntro { grid-area: intro; }
-aside { grid-area: aside; }
-#orReadingBooks { grid-area: main; } */
-
-
-
-/* .grid-container-onlineRead {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto 300px;
-  grid-template-areas:
-  'infobar infobar infobar infobar infobar infobar'
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'intro intro intro intro intro aside'
-    'main main main main main aside'
-    'footer footer footer footer footer footer';
-  background-color: white;
-} */
-
+#video1 {
+    width: 100%;
+}
