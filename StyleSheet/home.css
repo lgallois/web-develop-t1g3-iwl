@@ -55,7 +55,7 @@
 
 
 
-/*---Ticket Options Section---*/
+/*---Ticket Options Section Outer---*/
 
 .tickets{
     margin-top: 20px;
@@ -79,6 +79,9 @@
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
+
+/*---Ticket Options Section Inner---*/
+
 
 .ticket-box {
     color: #6b2525;
