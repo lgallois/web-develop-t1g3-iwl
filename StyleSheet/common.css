@@ -9,6 +9,11 @@ body{
     height: 100%;
 }
 
+
+/*---Site Wide Text Styling---*/
+
+
+
 h1{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -54,6 +59,9 @@ p{
     color: rgb(0, 0, 0);
 }
 
+
+/*---Logo Styling---*/
+
 .green{
 color: #CC7830;
 
@@ -66,6 +74,9 @@ color: #CC7830;
 .text-center{
     text-align: center;
 }
+
+
+/*---Global Body Styling---*/
 
 .container{
 max-width: 1130px;
